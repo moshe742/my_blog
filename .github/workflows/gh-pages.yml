@@ -34,8 +34,7 @@ jobs:
 
       - name: Generate pages
         run: |
-          cd moshe742_blog
-          ../code-maven web
+          ./code-maven web
 #          cp images/* _site/images/
 
       - name: Upload artifact
