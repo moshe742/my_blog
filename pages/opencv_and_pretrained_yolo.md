@@ -1,6 +1,6 @@
 ---
 title: adding a pre-trained yolo model to opencv
-timestamp: 2024-02-11T12:00:00
+timestamp: 2024-02-12T12:00:00
 published: true
 author: moshe742
 description: This blog post will explain how to use YOLO pre-trained model with opencv
