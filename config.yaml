@@ -1,0 +1,33 @@
+url: https://blog.moshe742.name
+repo: https://github.com/moshe742/blog
+branch: main
+site_name: Moshe Nahmias Blog
+link_to_source: false
+footer: The blog of [Moshe Nahmias](https://github.com/moshe742/blog)
+tags:
+  title: Tags
+  description: Articles about programming
+# google_analytics: ABC
+from:
+  name: Moshe Nahmias
+  email: moshegrey@gmail.com
+archive:
+  title: Archive
+  description: Archive of this site
+authors:
+  - name: Moshe Nahmias
+    nickname: moshe742
+    picture: foobar.png
+navbar:
+  start:
+    - path: /
+      title: Home
+    - path: /tags/
+      title: Tags
+  end:
+    - path: /archive
+      title: Archive
+    - path: /about
+      title: About
+
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ 
+  <url>
+    <loc>https://blog.moshe742.name/archive</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.moshe742.name/about</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.moshe742.name/</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.moshe742.name/opencv_and_pretrained_yolo</loc>
+    <lastmod>2024-02-11</lastmod>
+  </url>
+  
+</urlset>
+
