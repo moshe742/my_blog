@@ -1,5 +1,0 @@
-Sitemap: https://blog.moshe742.name/sitemap.xml
-Sitemap: https://blog.moshe742.name/slides/sitemap.xml
-
-User-agent: *
-
