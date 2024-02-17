@@ -14,6 +14,14 @@ todo:
 In this post I will describe how to add a pre-trained YOLOv3 model to opencv application in python.
 We will create a script that will enable us to see in a picture some identified objects that the model is able to detect.
 
+### What is YOLO and opencv?
+
+YOLO is an efficient machine learning algorithm to find objects in a picture, in contrast to
+other algorithms it looks on each secion of the picture only once, thus it's named You Only Look
+Once and if you want to read more you can do so [here][1].
+
+Opencv is a library for computer vision that's written in [C++][2] and has binding to other languages including [python][3]
+
 If you didn't install opencv and numpy keep reading, if you did you can jump to the next secion.
 
 ## installations
@@ -46,15 +54,11 @@ Now, let's create the arguments for the script so the user can give it the image
 	parser.add_argument('-C', '--classes', required=True, help='path to text file containing class names')
 	args = parser.parse_args()
 
-The first line creates an parser that will add the arguments with add_argument, each command adds
-an argument as the name suggests with 2 ways of writing it in the command line a short version
-and a long version.
+The first line creates an parser that will add the arguments with add_argument, each command adds an argument as the name suggests with 2 ways of writing it in the command line a short version and a long version.
 
-Since we added the dash (-) the parser would allow it to be optional, but we want those arguments
-to be required, so we add the "required=True".
+Since we added the dash (-) the parser would allow it to be optional, but we want those arguments to be required, so we add the "required=True".
 
-The last line is parsing the arguments the user gives and puts them in the variable args, we will
-get the inputs from there later on.
+The last line is parsing the arguments the user gives and puts them in the variable args, we will get the inputs from there later on.
 
 In our main function we will get the arguments info with
 
@@ -245,4 +249,14 @@ next line
 
 	cv2.destroyAllWindows()
 
+Let's try it out, here is an image I used to check if it works correctly
+![image with dog, bycicle and truck](images/dog.jpg)
+
+And here is the image with the boxes of object detection
+![image with boxes detecting the dog, bycicle and truck](images/object-detection.jpg)
+
 I would love to hear your comments, you can join me at telegram in the link https://t.me/moshe742_blog to comment and talk about this post
+
+[1]: https://pjreddie.com/darknet/yolo/
+[2]: https://docs.opencv.org/4.x/index.html
+[3]: https://pypi.org/project/opencv-python/
