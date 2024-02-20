@@ -1,5 +1,5 @@
 ---
-title: Index page
+title: Moshe742 blog
 timestamp: 2024-02-11T12:00:00
 published: true
 author: moshe742
