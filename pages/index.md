@@ -12,4 +12,4 @@ todo:
 
 Hi, I am Moshe Nahmias, a programmer and geek, I will write in this blog about programming, Rust, python and more
 
-{% latest limit=5  %}
+{% latest limit=3 tag=programming %}

@@ -5,8 +5,9 @@ published: true
 author: moshe742
 description: This blog post will explain how to use YOLO pre-trained model with opencv
 tags:
-    - opencv
+    - programming
     - YOLO
+    - opencv
 todo:
     - TODO
 ---
